@@ -10,7 +10,7 @@ import (
 
 	core "github.com/DataDog/datadog-agent/pkg/proto/pbgo/core"
 	gomock "github.com/golang/mock/gomock"
-	empty "github.com/golang/protobuf/ptypes/empty"
+	empty "google.golang.org/protobuf/types/known/emptypb"
 	grpc "google.golang.org/grpc"
 	metadata "google.golang.org/grpc/metadata"
 )
